@@ -15,5 +15,3 @@ RUN mkdir -p /opt/sdcc && \
   rm sdcc-4.0.0-amd64-unknown-linux2.5.tar.bz2
 
 ENV PATH /opt/sdcc/bin:$PATH
-
-ENTRYPOINT ["sdcc"]
