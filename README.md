@@ -1,6 +1,6 @@
 # docker-pic-devenv
 
-Docker image for PIC microcontroller development environment with sdcc and gputils
+Docker image for PIC microcontroller development environment with [sdcc](http://sdcc.sourceforge.net/) and [gputils](https://gputils.sourceforge.io/)
 
 ## How to use
 
