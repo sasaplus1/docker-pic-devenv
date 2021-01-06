@@ -4,7 +4,7 @@ SHELL := /bin/bash
 
 .PHONY: all
 all:
-	sdcc -mpic14 -p12f629 --use-non-free main.c
+	sdcc -mpic14 -p12f629 --use-non-free --verbose main.c
 
 .PHONY: clean
 clean:
