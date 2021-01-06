@@ -2,7 +2,7 @@
 #include <pic14regs.h>
 #include <stdint.h>
 
-__code uint16_t __at (_CONFIG) __configword = _INTRC_OSC_NOCLKOUT & _WDT_OFF & _MCLRE_OFF;
+__code uint16_t __at (_CONFIG & 0x11FF) __configword = _INTRC_OSC_NOCLKOUT & _WDT_OFF & _MCLRE_OFF;
 
 void main(void) {
   CMCONbits.CM0 = 0;
